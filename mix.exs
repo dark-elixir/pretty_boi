@@ -23,7 +23,8 @@ defmodule PrettyBoi.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-      {:dark_dev, only: [:dev, :test], runtime: false, path: "../dark_dev"}
+      # {:dark_dev, only: [:dev, :test], runtime: false, path: "../dark_dev"}
+      {:dark_dev, path: "../dark_dev"}
     ]
   end
 end
